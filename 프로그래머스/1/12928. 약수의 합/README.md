@@ -2,6 +2,20 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12928?language=kotlin) 
 
+[다른 사람 풀이]
+class Solution {
+    fun solution(n: Int): Int {
+        var answer = 0
+
+        answer = (1..n).filter { n % it == 0 }.sum()
+
+        return answer
+    }
+}
+
+
+
+
 ### 성능 요약
 
 메모리: 59.6 MB, 시간: 0.09 ms
